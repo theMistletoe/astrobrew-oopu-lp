@@ -17,8 +17,8 @@ import Few from '../assets/few.svg'
                     </div>
                 </div>
                 <div class="customer-testimony">
-                    <h4 class="h3-title">~利用者の声~</h4>
-                    <h4 class="h3-title">運動嫌いの母が2000回もやっていてびっくりしました!<br/>私も負けてられない…!</p>
+                    <h4 class="h3-title">〜利用者の声〜</h4>
+                    <h4 class="h3-title break">運動嫌いの母が<wbr>2000回もやっていて<wbr>びっくりしました!<wbr>私も負けてられない…!</p>
                 </div>
             </div>
         </div>
@@ -44,6 +44,7 @@ import Few from '../assets/few.svg'
 }
 .customer-testimony{
     width: 70%;
+    margin-left: 30px;
     h4, p{
         color: #fff;
     }
@@ -72,6 +73,11 @@ import Few from '../assets/few.svg'
         width: 200px;
     }
  }
+
+.break {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
 
  @media (max-width:700px) {
     .flex{
