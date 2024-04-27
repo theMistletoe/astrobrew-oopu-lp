@@ -1,19 +1,18 @@
 ---
-import Logo from '../assets/logodark.svg'
+import Logo from '../assets/logo.png'
 ---
 
 
 <header>
     <nav class="container">
         <div class="nav-logo">
-            <a href="https://anthonycharles.work">
-                <img src={Logo} alt="brand logo">
-            </a>
+            <img src={Logo} alt="brand logo">
+            <!-- <h3>1日1回だけ腹筋するアプリ</h3> -->
         </div>
         <div class="nav-links">
-            <a href="#features">Features</a>
+            <!-- <a href="#features">Features</a>
             <a href="#customers">Customers</a>
-            <a href="#">Twitter</a>
+            <a href="#">Twitter</a> -->
         </div>
         <div class="nav-cta">
             <!-- <a href="#">Login</a> -->
@@ -44,6 +43,10 @@ nav{
             margin-left: -6px;
             margin-top: 2px;
         }
+    }
+
+    .nav-logo img{
+        height: 50px;
     }
 
     @media (max-width:700px) {
