@@ -10,9 +10,9 @@ import Hero from '../assets/hero_situp.webp'
        <div class="row">
            <div class="one-half column">
               <div class="d-cell">
-               <h1 class="h1-title">え!?<br/>あの人が<span>腹筋1000回も!?</span></h1>
+               <h1 class="h1-title">え!?<wbr>あの人が<wbr><span>腹筋1000回も!?</span></h1>
                <div class="content">
-                   <p>1日1回腹筋するだけでOK!絶対に続けられる腹筋アプリ!</p>
+                   <p>1日1回<wbr>腹筋するだけで<wbr>OK!<wbr>絶対に<wbr>続けられる<wbr>腹筋アプリ!</p>
                    <a href="https://apps.apple.com/jp/app/1日1回だけ腹筋するアプリ/id6471345904" class="button button-primary lg">無料ではじめる！</a>
                </div>
               </div>
@@ -26,6 +26,11 @@ import Hero from '../assets/hero_situp.webp'
    </section>
 
    <style lang="scss">
+
+    .d-cell {
+        word-break: keep-all;
+        overflow-wrap: break-word;
+    }
 
     .product-hero{
         padding: 50px 0;
